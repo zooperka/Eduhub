@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    cursor: url('../assets//cursor.png'), auto;
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--salmon);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(248, 170, 255);
+}
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --salmon:salmon;
+    --font-size: 16px;
+}
+
+nav {
+    background-color: #392714;
+    z-index: 999999;
+}
+
+.logo span {
+    color: salmon;
+}
+
+/* header style start  */
+
+#header {
+    width: 100%;
+    height: 100vh;
+    color: var(--white);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://cdn.pixabay.com/photo/2023/11/01/07/41/ai-generated-8356763_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#header>div {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.heading{
+    font-family: "Merriweather", serif;
+}
+
+.heading>span{
+    color: var(--salmon);
+}
+
+.heading>i{
+    color: var(--salmon);
+    opacity: 0;
+}
+
+.heading:hover i{
+    opacity: 1;
+}
+.col-feature>button{
+    display: none;
+}
+#feature{
+    width: 100%;
+position: relative;
+}
+/* #design{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(101, 242, 242, 0.321);
+    clip-path: polygon(100% 25%, 84% 38%, 77% 55%, 56% 64%, 45% 83%, 20% 85%, 0 100%, 0 74%, 0 0, 100% 0);
+z-index: -1;
+} */
+.col-feature{
+    padding: 15px;
+    border-radius: 10px;
+}
+.col-feature:hover{
+    box-shadow: 0 15px 5px #e1e1e1;
+}
+
+.col-feature:hover i{
+  color: var(--salmon);
+}
+
+.col-feature:hover button{
+    display: block;
+}
+
+
+/* button top code ----------------------------------------------------  */
+.topbtn {
+    display: none;
+    cursor: pointer;
+    position: fixed; 
+    bottom: 40px;
+    right: 20px;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background:#aec5b8;
+    border: 1px solid black;
+  }
+  
+  .topbtn i{
+    font-size: 1.7vw;
+    color: #111;
+  }
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --salmon:salmon;
+    --font-size: 16px;
+}
+
+.register-timing>div{
+    padding: 30px;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: var(--salmon);
+    margin: 0 10px;
+    color: var(--white);
+}
